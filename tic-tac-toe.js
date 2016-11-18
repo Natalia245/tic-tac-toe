@@ -70,3 +70,31 @@ Shapeseven.setAttribute("r", 30)
 Shapeseven.setAttribute("fill", "green")
 canvas.appendChild(Shapeseven)
 }
+
+function eighthcircle() {
+var Shapeeight = document.createElementNS(namespace, "circle")
+var canvas = document.getElementById("game-board")
+Shapeeight.setAttribute("cx", 225)
+Shapeeight.setAttribute("cy", 140)
+Shapeeight.setAttribute("r", 30)
+Shapeeight.setAttribute("fill", "green")
+canvas.appendChild(Shapeeight)
+}
+
+function ninthcircle() {
+var Shapenine = document.createElementNS(namespace, "circle")
+var canvas = document.getElementById("game-board")
+Shapenine.setAttribute("cx", 135)
+Shapenine.setAttribute("cy", 225)
+Shapenine.setAttribute("r", 30)
+Shapenine.setAttribute("fill", "green")
+canvas.appendChild(Shapenine)
+}
+
+
+var turn = "PlayerOne"
+function circleTwo() {
+  if (turn == "PlayerOne") {
+
+  }
+}
