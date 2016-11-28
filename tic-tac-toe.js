@@ -91,10 +91,10 @@ Shapenine.setAttribute("fill", "green")
 canvas.appendChild(Shapenine)
 }
 
+var topleft = document.getElementById("game-board")
+var currentColor = "green"
+topleft.setAttribute("fill", currentColor)
 
-var turn = "PlayerOne"
-function circleTwo() {
-  if (turn == "PlayerOne") {
-
-  }
-}
+function changeColor() {
+  if (currentColor == "green")
+  topleft.setAttribute("fill", "white")
