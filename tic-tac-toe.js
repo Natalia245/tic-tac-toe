@@ -94,7 +94,3 @@ canvas.appendChild(Shapenine)
 var topleft = document.getElementById("game-board")
 var currentColor = "green"
 topleft.setAttribute("fill", currentColor)
-
-function changeColor() {
-  if (currentColor == "green")
-  topleft.setAttribute("fill", "white")
